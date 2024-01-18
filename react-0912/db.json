@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "kendall1",
+      "email": "jenner1@ex.com"
+    },
+    {
+      "id": 2,
+      "username": "kendall2",
+      "email": "jenner@ex.com"
+    },
+    {
+      "id": 3,
+      "username": "kendall3",
+      "email": "jenner@ex.com"
+    },
+    {
+      "id": 4,
+      "username": "kendall4",
+      "email": "jenner@ex.com"
+    },
+    {
+      "id": 5,
+      "username": "kendall5",
+      "email": "jenner@ex.com"
+    }
+  ], 
+  "posts": [
+    { "id": 1, "title": "a", "content": "aa" },
+    { "id": 2, "title": "b", "content": "bb" },
+    { "id": 3, "title": "c", "content": "dd" },
+    { "id": 4, "title": "d", "content": "dd" },
+    { "id": 5, "title": "e", "content": "ee" }
+  ]
+}
