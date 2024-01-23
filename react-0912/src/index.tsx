@@ -5,6 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import { CssBaseline } from '@mui/material';
+// import Basic from './basic';
+import { ThemeProvider } from '@mui/material';
+import {theme} from './views/0123/mui/index'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -17,6 +20,8 @@ root.render(
       {/* 일관적인 스타일 적용
        -CSS를 전역에서 정규화 시키는 컴포넌트 */}
       <CssBaseline />
+      {/* <ThemeProvider theme={theme} /> */}
+      <ThemeProvider theme={theme}/>
       <App />
     </BrowserRouter>
   </React.StrictMode>

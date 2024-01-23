@@ -18,6 +18,7 @@ import { GlobalStyles } from "@mui/material";
 import Index0108 from "./views/0108/react/Index"
 import Index0109 from "./views/0109/a_Axios/index"
 import Index0111 from "./views/0111/index"
+import Index0123 from "./views/0123/mui/index"
 
 function App() {
   //! Context API를 사용한 전역 상태관리
@@ -46,6 +47,7 @@ function App() {
             <Route path="/0108" element={<Index0108 />} />
             <Route path="/0109" element={<Index0109 />} />
             <Route path="/0111" element={<Index0111 />} />
+            <Route path="/0123" element={<Index0123 />} />
           </Routes>
         </ThemeProvider>
     </>
